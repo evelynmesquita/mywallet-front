@@ -3,18 +3,26 @@ import styled from "styled-components"
 import HomePage from "./pages/HomePage"
 import SignInPage from "./pages/SignInPage"
 import SignUpPage from "./pages/SignUpPage"
-import TransactionsPage from "./pages/TransactionPage"
+import TransactionsPagePlus from "./pages/TransactionPagePlus"
+import TransactionsPageMinus from "./pages/TransactionPageMinus"
+import AppProvider from "./context/Provider";
+import { useContext, useState } from 'react'
 
 export default function App() {
+  const localData = JSON.parse(localStorage.getItem("session"))
+  const [session, setSession] = useState(localData);
   return (
     <PagesContainer>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<SignInPage />} />
-          <Route path="/cadastro" element={<SignUpPage />} />
-          <Route path="/home" element={<HomePage />} />
-          <Route path="/nova-transacao/:tipo" element={<TransactionsPage />} />
-        </Routes>
+        <AppProvider value={{ session, setSession }}>
+          <Routes>
+            <Route path="/" element={<SignInPage />} />
+            <Route path="/cadastro" element={<SignUpPage />} />
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/new-entry" element={<TransactionsPagePlus />} />
+            <Route path="/new-exit" element={<TransactionsPageMinus />} />
+          </Routes>
+        </AppProvider>
       </BrowserRouter>
     </PagesContainer>
   )

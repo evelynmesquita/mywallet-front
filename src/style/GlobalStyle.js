@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
         color: #fff;
         cursor: pointer;
         width: 100%;
-        padding: 12px;
+        
     }
     h1 {
         font-weight: 700;
@@ -51,7 +51,6 @@ const GlobalStyle = createGlobalStyle`
         line-height: 18px;
         color: white;
         text-decoration: none;
-        padding-top: 30px;
     }
 `
 
