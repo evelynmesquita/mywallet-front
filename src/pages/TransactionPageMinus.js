@@ -68,6 +68,12 @@ const TransactionsContainer = styled.main`
   h1 {
     align-self: flex-start;
     margin-bottom: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
   }
 
   div {

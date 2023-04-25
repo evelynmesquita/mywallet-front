@@ -41,13 +41,14 @@ const NewEntryForm = styled.form`
             }
         }
         button {
-            width: 326px;
-            height: 46px;
+            width: 346px;
+            height: 50px;
             background-color: #A328D6;
             border-radius: 5px;
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: auto;
             color: white;
             cursor: pointer;
             font-weight: 700;
