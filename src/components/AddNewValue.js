@@ -7,17 +7,19 @@ export default function AddNewValue({ setValue, setDescription, registerNewEntry
 
     return (
         <NewEntryForm onSubmit={registerNewEntry}>
-            <input onChange={(e) => setValue((e.target.value).replace(",", "."))} type="number" placeholder="Valor" thousandSeparator={true} prefix={'R$'}/>
+            <input onChange={(e) => setValue((e.target.value).replace(",", "."))} type="number" placeholder="Valor" thousandSeparator={true} prefix={'R$'} />
             <input onChange={(e) => setDescription(e.target.value)} type="text" placeholder="Descrição" />
             <button>{!loading ? location.pathname === "/new-entry" ? 'Salvar entrada' : 'Salvar saída' :
-                <ThreeDots
-                    color="#FFFFFF"
-                    height="60"
-                    width="60"
-                    ariaLabel="three-dots-loading"
-                    wrapperStyle={{}}
-                    wrapperClassName=""
-                    visible={true} />}</button>
+                <div>
+                    <ThreeDots
+                        color="#FFFFFF"
+                        height="60"
+                        width="60"
+                        ariaLabel="three-dots-loading"
+                        wrapperStyle={{}}
+                        wrapperClassName=""
+                        visible={true} /></div>}
+            </button>
         </NewEntryForm>
     )
 }
@@ -55,6 +57,13 @@ const NewEntryForm = styled.form`
             transition: 0.4s;
             &:hover {
                 background-color: #7c2c9f;
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
             }
           
         }
