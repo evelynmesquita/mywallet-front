@@ -44,7 +44,7 @@ export default function TransactionsPageMinus() {
     return (
         <TransactionsContainer>
             <div>
-                <h1>Nova entrada</h1>
+                <h1>Nova saída</h1>
                 <Link to="/home">
                     <AiFillHome color="white" size='1.5em' />
                 </Link>

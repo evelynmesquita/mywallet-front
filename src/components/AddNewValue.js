@@ -48,7 +48,6 @@ const NewEntryForm = styled.form`
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: auto;
             color: white;
             cursor: pointer;
             font-weight: 700;
