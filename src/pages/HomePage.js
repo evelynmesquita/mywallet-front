@@ -146,6 +146,12 @@ const Header = styled.header`
   margin-bottom: 15px;
   font-size: 26px;
   color: white;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  font-style: normal;
+  color: #FFFFFF;
 
   a {
     font-size: 30px;
@@ -207,7 +213,7 @@ const ButtonsContainer = styled.section`
     justify-content: space-between;
     p {
       font-size: 18px;
-      margin-top: 30px;
+      margin-top: 15px;
     }
     a {
       font-size: 24px;
