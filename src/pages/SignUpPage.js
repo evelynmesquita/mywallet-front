@@ -92,7 +92,6 @@ const SingUpContainer = styled.section`
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 326px;
     height: 46px;
     align-items: center;
   }
