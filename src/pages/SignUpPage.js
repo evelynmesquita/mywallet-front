@@ -80,6 +80,12 @@ const SingUpContainer = styled.section`
 
   a {
     margin-top: 35px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
   }
 
   button {
