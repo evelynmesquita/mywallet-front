@@ -30,8 +30,8 @@ Here are the technologies used in this project.
 * Configure environment variables in a .env file:
   - MONGODB_URI=your-mongodb-uri
   - SECRET_KEY=your-secret-key
- 
- * Run the application in development mode:
+  
+* Run the application in development mode:
   - npm run dev
 
 ## How to use
