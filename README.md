@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo of the project](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/logo.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+## SpotCode
+This is a virtual wallet made using React and MongoDB. The application allows users to securely and efficiently store and manage their expenses.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here are the technologies used in this project.
 
-### `npm test`
+* React: Component library for building user interfaces
+* MongoDB: NoSQL database for storing user data
+* Express: Node.js framework for building RESTful APIs
+* Node.js: JavaScript runtime environment for server-side execution
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Services Used
 
-### `npm run build`
+* Github
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Clone the repository to your local machine:.
+  - git clone https://github.com/evelynmesquita/projeto14-mywallet-front.git
+  
+* Install the dependencies:
+  - npm install
+  
+* Configure environment variables in a .env file:
+  - MONGODB_URI=your-mongodb-uri
+  - SECRET_KEY=your-secret-key
+ 
+ * Run the application in development mode:
+  - npm run dev
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to use
 
-### `npm run eject`
+### 1 - You can Login in the system if you have an account registered.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Login](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/login.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3 - Or simply create your account.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Sign up](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/register.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4 - This is the Dashboard!
 
-## Learn More
+![Dashboard](https://github.com/Lucasdfg07/Spotify_clone/blob/master/public/readme_photos/14.png)
+![Dashboard](https://github.com/Lucasdfg07/Spotify_clone/blob/master/public/readme_photos/13.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 5 - You can see more of an album clicking above it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Dashboard](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/homeWallet.png)
+![Dashboard](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/home2.png)
 
-### Code Splitting
+### 6 - You can add your expenses in the virtual wallet application.!!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![New Entry](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/newEntry.png)
+![New Exit](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/newExit.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  ## Authors
 
-### Making a Progressive Web App
+  * **Evelyn Bandeira Mesquita** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  Please follow github and join us!
+  Thanks to visiting me and good coding!
