@@ -24,7 +24,7 @@ Here are the technologies used in this project.
 ## Getting started
 
 * Clone the repository to your local machine:.
-  - git clone https://github.com/evelynmesquita/mywallet-front
+  - git clone https://github.com/evelynmesquita/mywallet-front.git
   
 * Install the dependencies:
   - npm install
