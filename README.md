@@ -44,7 +44,7 @@ Here are the technologies used in this project.
 
 ![Sign up](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/register.png)
 
-### 44 - This is the Dashboard!
+### 4 - This is the Dashboard!
 
 ![Dashboard](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/homeWallet.png)
 ![Dashboard](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/home2.png)
