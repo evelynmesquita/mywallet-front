@@ -2,7 +2,7 @@
 ![Logo of the project](https://github.com/evelynmesquita/projeto14-mywallet-front/blob/main/public/readme/logo.png)
 
 
-## SpotCode
+## MyWallet
 This is a virtual wallet made using React and MongoDB. The application allows users to securely and efficiently store and manage their expenses.
 
 
